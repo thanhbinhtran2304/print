@@ -1,6 +1,6 @@
 Approach: commenting of proportionality from EBA guideline to ECB supervision
 
-problem: too high compliance cost for small and non-complex FI
+problem: too high compliance cost for small and non-complex FI, EBA provide road map for more intergraton of principle of proportionality into it guideline (https://www.eba.europa.eu/sites/default/files/2023-12/9dc534e8-8a3d-438f-88e3-bc86e623d99e/EBA%20Roadmap%20on%20strengthening%20the%20prudential%20framework_1.pdf)
 Part 1: overview of analysis cost of compliance (ref: https://www.eba.europa.eu/sites/default/files/document_library/Publications/Reports/2021/1013948/Study%20of%20the%20cost%20of%20compliance%20with%20supervisory%20reporting%20requirement.pdf)
 - technical standard is one of the main driver of cost of compliance -> in 2021, EBA amended 1 ITS regarding to the COREP, asset encumbrance, ALMM and G-SII reporting (ref: https://www.eba.europa.eu/sites/default/files/document_library/Publications/Draft%20Technical%20Standards/2021/ITS%20on%20OF%20GSII%20ALMM/1025603/Final%20Report%20on%20draft%20ITS%20on%20Supervisory%20Reporting%20regarding%20COREP%2C%20AE%2C%20ALMM%20and%20GSIIs.pdf)
   -> to reduce compliance cost                                                                                                                                                                      
@@ -35,3 +35,35 @@ elements, when interpreting the methodology. Additional proportionality elements
 EU-wide stress test will be facilitated, in particular, by an extensive use of materiality thresholds. 
 For starting point data and bottom-up projections banks are allowed to apply the following 
 materiality thresholds and simplifications as compared with the general methodology.:
+
+Part 7: ITS on NPL (ref: https://www.eba.europa.eu/sites/default/files/document_library/Publications/Draft%20Technical%20Standards/2022/EBA-ITS-2022-05%20ITS%20on%20NPL%20transaction%20data%20templates/1045969/Final%20report%20on%20draft%20ITS%20on%20NPL%20transaction%20data%20templates.pdf)
+
+Part 8: RESUBMISSION OF HISTORICAL DATA (https://www.eba.europa.eu/sites/default/files/2024-04/37408afd-8884-4ca6-b8c5-7011093c9528/Final%20Report%20-%20Guidelines%20on%20resubmission%20of%20historical%20data%20under%20the%20EBA%20reporting%20framework.pdf)
+-> No change to proportionality are amended -> 
+
+Part 9: authorization of CI (https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2021/EBA-gl-2021-12%20Guidelines%20on%20the%20authorisation%20of%20credit%20institutions/1023885/Report%20GL%20on%20a%20common%20assessment%20methodology%20%28002%29%20-%20clean.pdf)
+-> specific consideration of proportionality in authorization an CI
+
+
+
+Part 11: revised Guidelines on common procedures and methodologies for the supervisory review and evaluation process (SREP) (https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2022/EBA-GL-2022-03%20Revised%20SREP%20Guidelines/1028500/Final%20Report%20on%20Guidelines%20on%20common%20procedures%20and%20methodologies%20for%20SREP%20and%20supervisory%20stress%20testing.pdf)
+better articulating the principle of proportionality, through the categorisation of institutions and the application of the minimum engagement model;
+
+Part 12: GUIDELINES (REVISED) ON METHODS FOR CALCULATING CONTRIBUTIONS TO DGS https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2023/1052023/Final%20report%20of%20the%20revised%20GL%20on%20DGS%20contributions.pd-
+> Support recent case lose on DGS
+
+Part 13: CREDIT RISK
+- Counter cyclical buffer: The CRD IV package has introduced a countercyclical buffer (CCB) For the purposes of proportionality, a materiality threshold of 2% relative 
+to the overall credit risk exposure is proposed, so that institutions with capital requirements for specific 
+risk and IRC below this threshold can use a simpler approach to identify the various geographical
+locations of their trading book exposures. If an institution has only minor cross-border activities, the size of these foreign exposures should 
+arguably have a limited impact on the institution-specific buffer rate calculation. Therefore, as a 
+simplifying assumption, for the purpose of identifying their geographical location, foreign exposures 
+below a pre-specified threshold, also proposed at 2% of the overall credit risk exposure, could be 
+allocated to the country in which the institution is registered. 
+
+- Sale of NPL: https://www.eba.europa.eu/sites/default/files/document_library/Publications/Draft%20Technical%20Standards/2022/EBA-ITS-2022-05%20ITS%20on%20NPL%20transaction%20data%20templates/1045969/Final%20report%20on%20draft%20ITS%20on%20NPL%20transaction%20data%20templates.pdf
+
+Part 14: Market, Counterparty and CVA risk
+- Supervisors assessing new market risk internal models (https://www.eba.europa.eu/sites/default/files/2023-11/7c4b9e7f-a23e-41da-af5f-8c201ec48019/Final%20report%20on%20RTS%20on%20assessment%20methodology%20FRTB%20IMA.pdf)
+

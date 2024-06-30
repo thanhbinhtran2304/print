@@ -16,6 +16,10 @@ MVT compared its generated outputs with those in the model development documenta
 Replication Results: Summary:
 The table below summarizes the replication work performed for data extraction, RDS, and development datasets.
 
+MVT reviewed all the codes received from the development team and checked it against the model documentation to ensure formulae and model methodology described in the development documentation were coded as described. 
+This section outlines key validation activities conducted by MVT for the computer code review. In particular are reported all activities performed to review the code produced to generate:
+
+
 
 
 

@@ -20,6 +20,12 @@ MVT reviewed all the codes received from the development team and checked it aga
 This section outlines key validation activities conducted by MVT for the computer code review. In particular are reported all activities performed to review the code produced to generate:
 
 
+MVT thoroughly reviewed all the codes received from the development team, comparing them against the model documentation to ensure that the formulas and methodologies described were correctly implemented in the code. This section details the key validation activities MVT conducted during the computer code review, specifically reporting all activities performed to review the code used to generate:
+
+
+
+
+
 
 
 

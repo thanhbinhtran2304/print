@@ -1,36 +1,12 @@
-The process followed for the data evaluation consists of a data attestation performed by the Risk Data 
-Team (RDT). A pre-defined set of standard controls are performed along with a series of ad-hoc sense 
-checks, designed by MVT. This includes reviewing the assessment performed on the internal Bank RDS.
-Outline
-The internal data used for the proposed Bank model build has been through an attestation process 
-performed by the Risk Data Team (RDT) to assure appropriateness of the data for use in modelling 
-and the lineage of the data to its source. The data attestation process was performed on the entire 
-internal Bank RDS. 
-The following tests on the data were performed through Risk Data’s attestation framework:
-• Completeness: To ensure that the values are present in the attributes that require them;
-• Accuracy: To ensure the data is substantially error-free;
-• Consistency: To ensure that a given set of data can be matched across different data sources 
-of the institution;
-• Validity: To ensure that the data is founded on an adequate system of classification, rigorous 
-enough to compel acceptance;
-• Uniqueness: To ensure aggregate data is free from any duplication given by filters or other 
-transformations of source data;
-• Timeliness: to ensure that the data values are up to date;
-• Traceability: The history, processing and location of data under consideration can be easily
-traced.
-Data attestation logs were compiled for the fields used in the RDS. The first aim of an RDS creation is,
-where possible, to source data from the FDM which is a data source within the EDW. During the data 
-attestation process, data sourced from alternative tables have also been identified and proposed for 
-use, where equivalent FDM data is not available. These items were then attested to during this 
-process.
-All the fields as per source tables were included in the tests outlined above. The results from the tests 
-will indicate whether the fields would be considered in the model development process or not. The 
-attestation log consists of a list of fields, source tables, database names, description of the fields and 
-other useful information pertaining to each data point. Along with the attestation log, a Masterfile
-was provided which contains a list of tests executed (with its own unique identifier for each test), their 
-description and the logic used. A separate file with the results for these tests was also submitted to 
-MVT. 
-MVT Review
-MVT reviewed the data attestation process conducted by the RDT and performed the following sense 
-checks for the tests outlined above (except for traceability, which is an assessment done by MVT to 
-verify if RDT could provide existence of documentation) for a selection of fields:
+The data evaluation process involved the Risk Data Team (RDT) conducting data attestation. Standard controls and ad-hoc checks, designed by MVT, were applied to assess the internal Bank RDS. This ensured data suitability for modeling and confirmed its lineage to the source. The RDT's attestation encompassed:
+
+Completeness: Verifying presence of required attribute values.
+Accuracy: Ensuring data is largely error-free.
+Consistency: Matching data across different institutional sources.
+Validity: Confirming data classification is rigorous and acceptable.
+Uniqueness: Ensuring aggregate data lacks duplications.
+Timeliness: Verifying data currency.
+Traceability: Ensuring easy tracking of data history, processing, and location.
+Logs detailing the attestation of RDS fields were compiled, aiming to primarily source data from FDM within EDW. Alternate data tables were also identified and recommended where FDM data equivalents were unavailable. Results from these tests determined inclusion of fields in model development. The attestation log and a Masterfile listing tests with unique identifiers, descriptions, and logic used were submitted, alongside separate files detailing test results.
+
+MVT reviewed RDT's attestation process, conducting sense checks on the tests (excluding traceability) for selected fields. MVT additionally assessed traceability by verifying documentation existence as provided by RDT.

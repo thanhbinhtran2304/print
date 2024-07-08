@@ -1,37 +1,36 @@
-The replication work by MVT followed these steps:
-
-Executing the SQL/SAS codes provided by MDT to extract relevant data from the FDM, including creating the modeling dataset and RDS.
-Running the SAS codes.
-Replicating key input and output tables.
-Matching key outputs identified in step 3 with those in the model development documentation.
-Steps 1 and 2 - Executing Data Extraction and Model SAS Codes:
-The data for the Bank model comes from the Tier 2 data infrastructure, particularly the Capital Markets database. MVT replicated this data extraction using MDT-provided SAS codes. While the codes generally ran without major issues, MVT had to coordinate with MDT to resolve minor errors and ensure a 100% match rate. Issues were quickly resolved as the development team provided necessary updates or additional codes.
-
-Step 3 – Identifying Key Input and Output Tables:
-Outputs were sometimes compared outside of SAS by exporting datasets or pasting SAS results into Excel. The SAS Proc Compare function was also used in some cases.
-
-Step 4 - Matching Key Outputs to Model Development Documentation:
-MVT compared its generated outputs with those in the model development documentation for the key output tables/graphs identified in Step 3. When outputs were pasted into Excel and calculated, MVT ensured the SAS inputs into Excel matched the generated SAS tables. All major model components were successfully replicated without significant findings, only minor advisory issues that did not impact the results.
-
-Replication Results: Summary:
-The table below summarizes the replication work performed for data extraction, RDS, and development datasets.
-
-MVT reviewed all the codes received from the development team and checked it against the model documentation to ensure formulae and model methodology described in the development documentation were coded as described. 
-This section outlines key validation activities conducted by MVT for the computer code review. In particular are reported all activities performed to review the code produced to generate:
-
-
-MVT thoroughly reviewed all the codes received from the development team, comparing them against the model documentation to ensure that the formulas and methodologies described were correctly implemented in the code. This section details the key validation activities MVT conducted during the computer code review, specifically reporting all activities performed to review the code used to generate:
-
-
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make m
+The process followed for the data evaluation consists of a data attestation performed by the Risk Data 
+Team (RDT). A pre-defined set of standard controls are performed along with a series of ad-hoc sense 
+checks, designed by MVT. This includes reviewing the assessment performed on the internal Bank RDS.
+Outline
+The internal data used for the proposed Bank model build has been through an attestation process 
+performed by the Risk Data Team (RDT) to assure appropriateness of the data for use in modelling 
+and the lineage of the data to its source. The data attestation process was performed on the entire 
+internal Bank RDS. 
+The following tests on the data were performed through Risk Data’s attestation framework:
+• Completeness: To ensure that the values are present in the attributes that require them;
+• Accuracy: To ensure the data is substantially error-free;
+• Consistency: To ensure that a given set of data can be matched across different data sources 
+of the institution;
+• Validity: To ensure that the data is founded on an adequate system of classification, rigorous 
+enough to compel acceptance;
+• Uniqueness: To ensure aggregate data is free from any duplication given by filters or other 
+transformations of source data;
+• Timeliness: to ensure that the data values are up to date;
+• Traceability: The history, processing and location of data under consideration can be easily
+traced.
+Data attestation logs were compiled for the fields used in the RDS. The first aim of an RDS creation is,
+where possible, to source data from the FDM which is a data source within the EDW. During the data 
+attestation process, data sourced from alternative tables have also been identified and proposed for 
+use, where equivalent FDM data is not available. These items were then attested to during this 
+process.
+All the fields as per source tables were included in the tests outlined above. The results from the tests 
+will indicate whether the fields would be considered in the model development process or not. The 
+attestation log consists of a list of fields, source tables, database names, description of the fields and 
+other useful information pertaining to each data point. Along with the attestation log, a Masterfile
+was provided which contains a list of tests executed (with its own unique identifier for each test), their 
+description and the logic used. A separate file with the results for these tests was also submitted to 
+MVT. 
+MVT Review
+MVT reviewed the data attestation process conducted by the RDT and performed the following sense 
+checks for the tests outlined above (except for traceability, which is an assessment done by MVT to 
+verify if RDT could provide existence of documentation) for a selection of fields:

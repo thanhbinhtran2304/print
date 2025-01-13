@@ -6,3 +6,5 @@ The “Time in Default” variable applies only to the non-performing modeling s
 
 Indicator for accounts which do not meet the model selection rules for not in mortgage portfolio for scope of application.	Not part of mortgage population.
 Indicator that accounts which close and still have an open B/C note. Indicator that accounts which close and still have an open B/C note.	Not part of mortgage population.
+
+This refers to an indicator used to identify accounts that do not meet the model selection criteria and are therefore outside the scope of the mortgage portfolio. Additionally, it highlights accounts that have been closed but still have an open B/C note, which also fall outside the defined mortgage population. These accounts are excluded to ensure the accuracy and relevance of the data used for modeling and analysis.
